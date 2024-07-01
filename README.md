@@ -1,1 +1,1 @@
-Java projects from both University and my own.
+<h1> Projects of my own and from my University! </h1>
