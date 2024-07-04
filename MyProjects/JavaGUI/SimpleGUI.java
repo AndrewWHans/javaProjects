@@ -1,4 +1,4 @@
-package gui;
+package simplegui;
 
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
@@ -10,14 +10,14 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-public class GUI implements ActionListener {
+public class SimpleGUI implements ActionListener {
 
     private int count = 0;
     private JLabel label = new JLabel("Number of clicks: 0");
     private JFrame frame = new JFrame();
     private JPanel panel;
     
-    public GUI() {
+    public SimpleGUI() {
         
         // clickable button.
         JButton button = new JButton("Click me");
@@ -40,7 +40,7 @@ public class GUI implements ActionListener {
     }
     
     public static void main(String[] args) {
-        new GUI();
+        new SimpleGUI();
     }
 
     @Override
