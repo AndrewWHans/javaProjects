@@ -4,7 +4,7 @@ public class StaticMethod {
     
     public static void main(String[] args) {
         // Static Method: belong class itself.
-        sayHi();
+        sayHello();
 
         // Non-Static Method: Instance of Class.
         StaticMethod object = new StaticMethod(); // creates a StaticMethod object from the StaticMethod class.
@@ -14,7 +14,7 @@ public class StaticMethod {
         System.out.println("Hello!");
     }
     void sayPancakes() {
-        System.out.println("Pancakes!")
+        System.out.println("Pancakes!");
     }
 
 }
