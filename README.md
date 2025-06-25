@@ -1,1 +1,3 @@
-<h1> Projects of my own and from my University! </h1>
+# Projects from my University!
+
+These are the java projects I made while in university.
