@@ -1,3 +1,3 @@
-# Projects from my University!
+# Java Projects!
 
-These are the java projects I made while in university.
+These are the java programming assignments and builds I made while in university.
